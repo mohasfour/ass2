@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title>Contact Page</title>
+          <link rel="stylesheet" href="as2.css">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+           </head>
+            <body class="contact">
+              
+              <!--NavBar Starts-->
+               <div class="menu-bar">
+                <ul>
+                <!--Tabs inside NavBar Start-->
+            <li><a href="HTML.html"><i class="fa fa-HTML5"></i>HTML</a></li>
+               <li><a href="CSS.html"><i class="fa fa-css3"></i>CSS</a></li>
+               <li><a href="JavaScript.html"><i class="fa fa-coffee"></i>JavaScript</a></li>
+               <li><a href="PHP.html"><i class="fa fa-product-hunt"></i>PHP</a></li>
+               
+               <li><a href="about.html"><i class="fa fa-address-card"></i>About US [ MEMBERS]</a>
+                   <div class="sub-menu-1">
+                       <ul>
+                           <li><a href="Team.html">Team</a><i class="fa fa-angle-right"></i></li>
+                           <li><a href="mission.html">Mission</a><i class="fa fa-angle-right"></i></li>
+                       </ul>
+                       
+                       
+                   </div>
+               </li>
+               <li><a href="Contact.html"><i class="fa fa-envelope"></i>Contact US</a></li>
+                </ul>
+                 <!--Tabs inside NavBar Ends-->
+                </div>
+                <!--NavBar Ends-->
+                
+                <!--Banner starts-->
+                <div class="banner">
+                  <img class="image-banner" src="https://pha.tanta.edu.eg/en/department/Aloqrbazin/images/cotact%20us.png">
+              </div>
+                <!--Banner ends-->
+                
+                <div class="contentn" id="contactContainer"> <!--Content container-->
+        
+        <h2 class="contentHeader" id="contactHeader1">Contact Us</h2> <!--Form header-->
+
+        <form action="/action_page.php"> <!--Form starts-->
+            <label for="fname">Name</label> <!--Name label-->
+            <input type="text" id="name" name="name" placeholder="Your name.."> <!--Name input-->
+
+            <label for="lname">Email</label> <!--Email label-->
+            <input type="text" id="email" name="email" placeholder="Your email.."> <!--Email input-->
+
+            <label for="country">Country</label> <!--country label-->
+            <select id="country" name="country"> <!--country dropdown-->
+                <option value="saudiArabia">Saudi Arabia</option>
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+            </select>
+
+            <label for="subject">Subject</label> <!--subject label-->
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea> <!--subject input-->
+
+            <input type="submit" value="Submit" id="submitBtn"> <!--Submit button-->
+        </form> <!--Form ends-->
+        
+        <br>
+
+        <h2 class="contentHeader" id="contactHeader2">Visit Us</h2> <!--Map header-->
+
+        <div class="mapContainer"> <!--Map container-->
+            <iframe class="map" id="PSUmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4035.489000630118!2d46.69826105166595!3d24.73663671450046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f0292c1fb5529%3A0x3fbc5cb308e60dd8!2sPrince%20Sultan%20University!5e0!3m2!1sen!2sus!4v1602176073486!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> <!--Map iframe-->
+        </div>
+        
+        <address id="contactAddress">12435 Salahuddin, Riyadh, SA</address> <!--address-->
+
+    </div>
+                <!--    Footer Start-->
+        <footer>
+
+            <div class="foot" id="footerContentContainer">
+
+               <a href="https://www.linkedin.com" class="fa fa-linkedin fa-2x" target="_blank"></a> <!--LinkedIn Icon-->
+
+                <a href="https://www.linkedin.com" class="fa fa-github fa-2x" target="_blank"></a> <!--Github Icon-->
+
+                <a href="https://github.com/mohasfour" class="fa fa-twitter fa-2x" target="_blank"></a> <!--Twitter Icon-->
+
+                <a href="https://www.instagram.com/hmoodasfour/?hl=en" class="fa fa-instagram fa-2x" target="_blank"></a> <!--Instagram Icon-->
+
+                <br><br>
+
+                <a href="https://mailto:as47mood@gmail.com" class="footerLink" target="_blank">
+                    <p class="contactLink"><i class="material-icons contactIcons">email</i> <span class="footerContact">as47mood@gmail.com</span></p> <!--Email Link-->
+                </a>
+
+                <br><br>
+
+                <a href="https://goo.gl/maps/5kfj4DkLz8yGtUocA" class="footerLink" target="_blank">
+                    <p class="contactLink"><i class="material-icons contactIcons">business</i> <span class="footerContact" id="address"><address id="bottomAddress">12435 Salahuddin, Riyadh, SA</address></span></p> <!--Address Link-->
+                </a>
+
+                <br>
+                <hr>
+
+                <p id="copyright">2020 © Copyright by Mohammed Asfour. All rights reserved</p> <!--Copyright Claim-->
+
+            </div>
+
+        </footer>
+        <!--    Footer end-->
+            </body>
+        
+    
+</html>

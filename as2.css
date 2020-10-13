@@ -1,0 +1,454 @@
+*
+{
+    padding: 0;
+    margin: 0;
+     box-sizing: border-box;
+}
+
+/* background color for nav bar and the text in it is in center */
+.menu-bar{
+    background:(0,100,0);
+    background-color: rebeccapurple;
+    text-align: center; 
+    height: 70px;
+    
+}
+/* text in nav bar display style and the color */
+.menu-bar ul{
+    display: inline-flex;
+    
+    list-style: none;
+    color: darkblue;
+    
+}
+/* hieght and width of the nav bar */
+.menu-bar ul li{
+    width: 190px;
+   
+    margin: 8px;
+    padding: 10px;
+}
+/* nav bar text style and size and fonttype */
+.menu-bar ul li a{
+    text-decoration: none;
+    font-family:"Orbitron";
+font-size: 17px;
+    color: white;
+}
+/* navbar hover effect and color */
+ .menu-bar ul li:hover{
+    
+    background-color: blueviolet;
+    border-radius: 3px;
+}
+/* navbar icons and size and spacing */
+.menu-bar .fa{
+    margin-right: 12px;
+    font-size: 22px;
+}
+.sub-menu-1{
+    display: none;
+}
+/* about us dropdown color and style */
+.menu-bar ul li:hover .sub-menu-1{
+    display: block;
+    position: absolute;
+    background-color: rebeccapurple;
+    margin-top: 11px;
+    margin-left: -15px;
+}
+/* dropdown display style */
+.menu-bar ul li:hover .sub-menu-1 ul{
+    display: block;
+    margin: 10px;
+}
+/* dropdown text allign and border between the team and mission */
+.menu-bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+    border-bottom: none;
+}
+/* dropdown hover effect color */
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: skyblue;
+}
+/* arrows next to team and mission in about us dropdown and the color */
+.fa-angle-right{
+    float: right;
+    color:whitesmoke;
+}
+/* psu image banner in all pages and size and display view */
+.banner .image-banner{
+    height:280px;
+    width: 100%;
+    
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px  ;
+border-radius: 15px;
+margin-top: -7px;
+    box-shadow: 0px 3px 33px rebeccapurple;
+}
+#banner-inner { width: 996px; }
+    
+
+/* the table copied from the google sheets and its style */
+table {
+  border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 50px;
+  width: 80%;
+    background:rebeccapurple;
+    border: solid;
+    color: darkorange;
+    box-shadow: 4px 4px 40px darkorange;
+}
+#htmlHeader1{
+    color: white;
+    margin-top: 1%;
+    background: darkorange;
+    width: 30%;
+    border-style:solid;
+    border-color:darkorange;
+    border-radius: 20px;
+    margin-left: auto;
+        margin-right: auto;
+
+    font-family:"Orbitron";
+    text-align: center;
+     box-shadow: 6px 3px 16px darkorange;
+    
+}
+/* the contents of the table and borders and alignment of text */
+.th, td {
+  text-align: left;
+  padding: 6px;
+    border: solid;
+    border-width:thin;
+    border-color: orange;
+    color: whitesmoke;
+   
+}
+
+.tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* the Description writtin in JavaScript page and its style */
+.desc{
+    margin-top: 0px;
+        margin-left: 0px;
+    color: black;
+    text-align: center;
+        text-indent: 20px;
+        width: 100%;
+    background: #D4AF37;
+    font-family:"Orbitron";
+     font-size: 18px;
+    
+    
+}
+/* the JS icon added in JavaScript page */
+.jsicon> .js{
+       height: 70;
+     width: 75px;
+    margin-left: 46%;
+    display: block;
+}
+/* the Description writtin in Mission page and its style */
+.descp{
+    
+    margin-top: 22px;
+    margin-left: 0px;
+    color: black;
+   text-align: center;
+    text-indent: 20px;
+    background: green;
+    
+    width: 100%;
+    
+    font-family:"Orbitron";
+     font-size: 23px;
+    
+}
+/* the Description writtin in PHP page and its style */
+.descp1{
+     margin-top: 0px;
+    margin-left: 0px;
+    color: white;
+   text-align: center;
+    text-indent: 20px;
+    background: mediumpurple;
+    
+    width: 100%;
+    
+    font-family:"Orbitron";
+     font-size: 20px;
+}
+/* the PHP icon added in PHP page */
+.phpicon> .ph{
+       height: 90;
+     width: 95px;
+   margin-left: 46%;
+    display: block;
+}
+/* the Background image in our java.html page */
+body.java{
+     background: url(https://cdn.searchenginejournal.com/wp-content/uploads/2020/02/seo-javascript-the-good-the-bad-the-uncertainty-5e4a09b3cd5db.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/* the Background image in our HTML.html page */
+body.htm{
+     background: url(https://static.arageek.com/wp-content/uploads/html5-intro.jpg);
+    background-size:100%;
+    
+    background-position: center;
+    
+}
+/* the Background image in our java.html page */
+body.phpp{
+     background: url(https://devbunch.com/blog/wp-content/uploads/2020/07/WordPress-PHP-plugin.png);
+    background-size:cover;
+    
+    background-position: center;
+    
+}
+/* the Background image in our CSS.html page */
+body.css{
+     background: url(https://img-cdn.tnwcdn.com/image?fit=1280%2C720&url=https%3A%2F%2Fcdn0.tnwcdn.com%2Fwp-content%2Fblogs.dir%2F1%2Ffiles%2F2020%2F03%2Fcode-1076536_1920.jpg&signature=2e75357e1e9b104caa33cb3a545dcbeb);
+    background-size:100%;
+    
+    background-position: center;
+    
+}
+/* the Screenshot image in our css.html page */
+.screenshot> .csswork{
+    width: 80%;
+        margin-top: 50px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* the Screenshot1 image in our css.html page */
+.screenshot1> .csswork1{
+   width: 80%;
+    display: block;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+/* the CSS code Text in our css.html page and its background and frame */
+.text{
+    text-align: left;
+    text-transform: capitalize;
+    width: 50%;
+color: aliceblue;
+    background: grey;
+    text-indent: 222;
+     font-family: Orbitron;
+        margin-left: 8;
+    background-image: url(https://i.pinimg.com/236x/47/64/79/47647918684e8aaea42f1541d3730c36--black-noir-black-dark.jpg);
+    background-size:119%;
+    background-blend-mode: hard-light;
+    
+    background-position: center;
+}
+/* Our Footer for all pages ands its style and positioning and size */
+.foot {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+    height: 210px;
+   background-color: rebeccapurple;
+   color: white;
+    
+   text-align: left;
+    color: 
+    
+}
+/* Our contact link info in our  footwe */
+.contactLink{
+    color: white;
+    display: block;
+    font-family: "Karla";
+    font-size:25px;
+    
+}
+/* PSU address link in our footer */
+#bottomAddress{
+    color: white;
+    display: block;
+    font-family: "Karla";
+    font-size:24px;
+    text-decoration-line: none;
+    text-indent: 206;
+    
+}
+/* CopyRight and its style */
+#copyright{
+    font-family: "Karla";
+    background:
+rebeccapurple ;
+}
+/* Icons in footer color and position*/
+a:link{
+    color: white;
+    width: 60;
+    
+}
+/* Background image in contact.html page */
+body.contact{
+ background-image: url(https://img.freepik.com/free-photo/businessman-hand-holding-smart-phone-with-icon-mobile-phone-mail-telephone-address-customer-service-call-center-contact-us-concept_20693-208.jpg?size=626&ext=jpg&ga=GA1.2.1780163318.1601856000);
+    background-size:contain;
+    
+    background-position: center;
+}
+
+/* the Contact Us content */
+.contentn{
+    background-color: ;
+    text-align: left;
+    
+}
+/* Our videos alignment on pages */
+.youtube{
+    text-align: center;
+    
+}
+/* the icons in our footer and its style and position */
+#footerContentContainer a{
+    color: white;
+    text-decoration-line: none;
+    text-indent: 90px;
+}
+/* the PSU map in contact us page (Visit us) */
+#Psumap.map{
+    width: 100%;
+    
+}
+/* the Visit us header and its style and size in contact us page */
+#contactHeader2.contentHeader{
+    background-color: rebeccapurple;
+    width: 100%;
+    text-indent: 41%;
+    color: whitesmoke;
+        font-family:"Orbitron";
+        
+}
+/* the Contactus us header and its style and size in contact us page */
+#contactHeader1.contentHeader{
+    background-color: rebeccapurple;
+    width: 100%;
+    margin-top: 12px;
+    text-indent: 41%;
+    color: whitesmoke;
+    font-family:"Orbitron";
+        
+        
+}
+/* the map container in contact us page*/
+.mapContainer{
+    text-align: left;
+    margin-bottom: -20px;
+}
+/* the contact us form and its style and size in contact us page */
+form{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS7IoWjlkZJMCBHrah5kaw1FnE0jvEcDy3csQ&usqp=CAU);
+width:100%;
+    background-size:100% 100%;
+    margin-bottom: -20;
+    text-align: center;
+    
+}
+/* the write something subject box in contactuspage */
+#subject{
+font-size: 170%;
+    
+   text-align: left;
+    margin-left: 560;
+    
+}
+
+form label{
+    color: whitesmoke;
+    background-color: rebeccapurple;
+    font-size: 14px;
+    font-family: "Orbitron";
+        
+}
+/* The footer likedin icon */
+a.fa.fa-linkedin.fa-2x{
+    font-size: 55;
+         margin-right: 8;
+
+}
+/* The footer GitHub icon */
+
+a.fa.fa-github.fa-2x{
+        font-size: 55;
+     margin-right: 8;
+}
+/* The footer Twitter icon */
+
+a.fa.fa-twitter.fa-2x{
+            font-size: 55;
+     margin-right: 8;
+
+}
+/* The footer Instagram icon */
+
+a.fa.fa-instagram.fa-2x{
+                font-size: 55;
+     margin-right: 8;
+
+}
+/* the Background image in our mission.html page */
+body.mission{
+     background: url(https://image.freepik.com/free-vector/mission-concept-outline-round-icon-illustration_104589-616.jpg);
+    background-size: center;
+    background-position: center;
+    
+}
+/* the Background image in our team.html page */
+body.about{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/05/45/astronomy-1867616__340.jpg);
+    background-size: contain;
+}
+/* the Header in our Team.html page  */
+#aboutHeader1{
+    margin-top: 44;
+    margin-bottom: 44;
+}
+/* the Header in our Team.html page clickable  mohammed asfourcv link */
+#AsfourCVlink.cvlink{
+    color: white;
+    text-decoration-line: none;
+    font-size: 35;
+    background: rebeccapurple;
+    border: solid;
+    border-color: black;
+    border-radius: 20px;
+     font-family:"Orbitron";
+    font-size: 30px;
+     box-shadow: 10px 8px 33px black;
+    
+}
+/* the Sticky NavBar in all pages */
+.menu-bar {
+    position: -webkit-sticky;  
+    position: sticky;
+    top: 0; 
+} 

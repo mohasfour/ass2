@@ -1,0 +1,307 @@
+<html>
+    <head>
+        <title>CSS Page</title>
+          <link rel="stylesheet" href="as2.css">
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+          <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+           </head>
+            <body class="css">
+              
+              
+              <!--NavBar Starts-->
+               <div class="menu-bar">
+               <!--TABS inside the NavBar Starts-->
+                <ul>
+            <li><a href="HTML.html"><i class="fa fa-HTML5"></i>HTML</a></li>
+               <li><a href="CSS.html"><i class="fa fa-css3"></i>CSS</a></li>
+               <li><a href="JavaScript.html"><i class="fa fa-coffee"></i>JavaScript</a></li>
+               <li><a href="PHP.html"><i class="fa fa-product-hunt"></i>PHP</a></li>
+               
+               <li><a href="about.html"><i class="fa fa-address-card"></i>About US [ MEMBERS]</a>
+                   <div class="sub-menu-1">
+                       <ul>
+                           <li><a href="Team.html">Team</a><i class="fa fa-angle-right"></i></li>
+                           <li><a href="mission.html">Mission</a><i class="fa fa-angle-right"></i></li>
+                       </ul>
+                       
+                       
+                   </div>
+               </li>
+               <li><a href="Contact.html"><i class="fa fa-envelope"></i>Contact US</a></li>
+                </ul>
+                <!--TABS inside the NavBar ends-->
+                </div>
+                <!--NavBar ends-->
+                   
+                    <!--Banner starts-->
+                    <div class="banner">
+                  <img class="image-banner" src="https://usersnap.com/blog/wp-content/uploads/2015/05/css3-tips-hacks.jpg">
+              </div>
+                         <!--Banner Ends-->
+
+
+                
+                    <!-- some Screenshots of my Css work starts-->
+                
+                <div class="screenshot">
+                    <img class="csswork" src="img/scrn.png">
+                </div>
+                <div class="screenshot1">
+                    <img class="csswork1" src="img/scrn1.png">
+                </div>
+                <!-- some Screenshots of my Css work ends-->
+                
+                
+                <!-- some of my Css code starts-->
+                <div class="text">
+                    <h1>CSS Code</h1><br>
+                    <p1> *
+{<br>
+    padding: 0;<br>
+    margin: 0;<br>
+     box-sizing: border-box;<br>
+}<br>
+
+/* background color for nav bar and the text in it is in center */<br>
+.menu-bar{<br>
+    background:(0,100,0);<br>
+    background-color: rebeccapurple;<br>
+    text-align: center; <br>
+    height: 70px;<br>
+    
+}<br>
+/* text in nav bar display style and the color */<br>
+.menu-bar ul{<br>
+    display: inline-flex;<br>
+    
+    list-style: none;<br>
+    color: darkblue;<br>
+    
+}<br>
+/* hieght and width of the nav bar */<br>
+.menu-bar ul li{<br>
+    width: 190px;<br>
+   
+    margin: 8px;<br>
+    padding: 10px;<br>
+}<br>
+/* nav bar text style and size and fonttype */<br>
+.menu-bar ul li a{<br>
+    text-decoration: none;<br>
+    font-family:"Orbitron";<br>
+font-size: 17px;<br>
+    color: white;<br>
+}<br>
+/* navbar hover effect and color */<br>
+ .menu-bar ul li:hover{<br>
+    
+    background-color: darkblue;<br>
+    border-radius: 3px;<br>
+}<br>
+/* navbar icons and size and spacing */<br>
+.menu-bar .fa{<br>
+    margin-right: 12px;<br>
+    font-size: 22px;<br>
+}<br>
+.sub-menu-1{<br>
+    display: none;<br>
+}<br>
+/* about us dropdown color and style */<br>
+.menu-bar ul li:hover .sub-menu-1{<br>
+    display: block;<br>
+    position: absolute;<br>
+    background-color: rebeccapurple;<br>
+    margin-top: 11px;<br>
+    margin-left: -15px;<br>
+}<br>
+/* dropdown display style */<br>
+.menu-bar ul li:hover .sub-menu-1 ul{<br>
+    display: block;<br>
+    margin: 10px;<br>
+}<br>
+/* dropdown text allign and border between the team and mission */<br>
+.menu-bar ul li:hover .sub-menu-1 ul li {<br>
+    width: 150px;<br>
+    padding: 10px;
+    border-bottom: 1px dotted #fff;<br>
+    background: transparent;<br>
+    border-radius: 0;<br>
+    text-align: left;<br>
+}<br>
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{<br>
+    border-bottom: none;<br>
+}<br>
+/* dropdown hover effect color */<br>
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover {<br>
+    color: skyblue;<br>
+}<br>
+/* arrows next to team and mission in about us dropdown and the color */<br>
+.fa-angle-right{<br>
+    float: right;<br>
+    color:whitesmoke;<br>
+}<br>
+/* psu image banner in all pages and size and display view */<br>
+.banner .image-banner{<br>
+    height:180px;<br>
+    width: 100%;<br>
+    display: block;<br>
+    margin-left: auto;<br>
+    margin-right: auto;<br>
+    
+}<br>
+/* the table copied from the google sheets and its style */<br>
+table {<br>
+  border-collapse: collapse;<br>
+    margin-left: auto;<br>
+    margin-right: auto;<br>
+    margin-top: 20px;<br>
+  width: 50%;<br>
+    background: whitesmoke;<br>
+    border: solid;<br>
+    
+}<br>
+/* the contents of the table and borders and alignment of text */<br>
+.th, td {<br>
+  text-align: left;<br>
+  padding: 6px;<br>
+    border: solid;<br>
+    border-width:thin;<br>
+   
+}
+<br>
+.tr:nth-child(even) {background-color: #f2f2f2;}<br>
+
+/* the Description writtin in JavaScript page and its style */<br>
+.desc{<br>
+    margin-top: 0px;<br>
+        margin-left: 20px;<br>
+    color: black;<br>
+    text-align: left;<br>
+        text-indent: 20px;<br>
+        width: 550px;<br>
+    background: gold;<br>
+    font-family:"Orbitron";<br>
+     font-size: 18px;
+    
+    
+}<br>
+/* the JS icon added in JavaScript page */<br>
+.jsicon> .js{<br>
+       height: 70;<br>
+     width: 75px;<br>
+    margin-left: 495px;<br>
+    display: block;<br>
+}<br>
+/* the Description writtin in PHP page and its style */<br>
+.descp{
+    
+    margin-top: 0px;<br>
+    margin-left: 20px;<br>
+    
+    color: black;<br>
+   text-align: left;<br>
+    text-indent: 20px;<br>
+    background: darkorchid;<br>
+    
+    width: 450px;<br>
+    
+    font-family:"Orbitron";<br>
+     font-size: 20px;<br>
+    
+}<br>
+/* the PHP icon added in PHP page */<br>
+.phpicon> .ph{<br>
+       height: 80;<br>
+     width: 95px;<br>
+   
+    display: block;<br>
+}<br>
+
+body.java{<br>
+     background: url(https://cdn.searchenginejournal.com/wp-content/uploads/2020/02/seo-javascript-the-good-the-bad-the-uncertainty-5e4a09b3cd5db.png);<br>
+    background-size: cover;<br>
+    background-position: center;<br>
+    
+}<br>
+body.htm{<br>
+     background: url(https://1.bp.blogspot.com/-JxgwZDYVVs8/XosaLMSZw1I/AAAAAAAAAYg/MHMM2psu_IU5CMRTDfcu_zwj3xtgPMunwCPcBGAYYCw/s640/170427-637199537009510295-16x9.jpg);<br>
+    background-size:1100px;<br>
+    
+    background-position: center;<br>
+    
+}<br>
+body.phpp{<br>
+     background: url(https://devbunch.com/blog/wp-content/uploads/2020/07/WordPress-PHP-plugin.png);<br>
+    background-size:cover;<br>
+    
+    background-position: center;<br>
+    
+}<br>
+body.css{<br>
+     background: url(https://www.tutorialrepublic.com/lib/images/css-illustration.png);<br>
+    background-size:1400px;<br>
+    
+    background-position: center;<br>
+    
+}<br>
+.screenshot> .csswork{<br>
+    width: 80%;<br>
+        margin-top: 50px;<br>
+
+    display: block;<br>
+    margin-left: auto;<br>
+    margin-right: auto;<br>
+}
+.screenshot1> .csswork1{<br>
+   width: 80%;<br>
+    display: block;<br>
+    margin-top: 50px;<br>
+    margin-left: auto;<br>
+    margin-right: auto;<br>
+    margin-bottom: 50px;<br>
+}<br>
+                    </p1>
+                    
+                </div>
+                 <!-- some of my Css code ends-->
+                 
+                  <!--    Footer Start-->
+        <footer>
+
+            <div class="foot" id="footerContentContainer">
+
+                <a href="https://www.linkedin.com" class="fa fa-linkedin fa-2x" target="_blank"></a> <!--LinkedIn Icon-->
+
+                <a href="https://www.linkedin.com" class="fa fa-github fa-2x" target="_blank"></a> <!--Github Icon-->
+
+                <a href="https://github.com/mohasfour" class="fa fa-twitter fa-2x" target="_blank"></a> <!--Twitter Icon-->
+
+                <a href="https://www.instagram.com/hmoodasfour/?hl=en" class="fa fa-instagram fa-2x" target="_blank"></a> <!--Instagram Icon-->
+
+                <br><br>
+
+                <a href="https://mailto:as47mood@gmail.com" class="footerLink" target="_blank">
+                    <p class="contactLink"><i class="material-icons contactIcons">email</i> <span class="footerContact">as47mood@gmail.com</span></p> <!--Email Link-->
+                </a>
+
+                <br><br>
+
+                <a href="https://goo.gl/maps/5kfj4DkLz8yGtUocA" class="footerLink" target="_blank">
+                    <p class="contactLink"><i class="material-icons contactIcons">business</i> <span class="footerContact" id="address"><address id="bottomAddress">12435 Salahuddin, Riyadh, SA</address></span></p> <!--Address Link-->
+                </a>
+
+                <br>
+                <hr>
+
+                <p id="copyright">2020 © Copyright by Mohammed Asfour. All rights reserved</p> <!--Copyright Claim-->
+
+            </div>
+
+        </footer>
+        <!--Footer end-->
+
+     
+    </body>
+        
+    
+</html>
